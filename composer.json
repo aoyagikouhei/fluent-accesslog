@@ -1,0 +1,26 @@
+{
+    "name": "aoyagikouhei/fluent-accesslog",
+    "description": "fluent accesslog",
+    "license": "MIT",
+    "keywords": ["log", "fluent"],
+    "homepage": "https://github.com/aoyagikouhei/fluent-accesslog",
+    "require": {
+        "fluent/logger": "0.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "authors": [
+        {
+            "name": "aoyagikouhei",
+            "email": "aoyagi.kouhei@gmail.com",
+            "homepage": "http://aoyagikouhei.blog8.fc2.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Fluent": "./src"
+        }
+    }
+}
