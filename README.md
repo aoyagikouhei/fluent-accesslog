@@ -67,7 +67,5 @@ $log->add(array('id' => $_SESSION['member_id']));
 
 ChangeLog
 -------------
-2013-04-23 0.0.2 modify readme
-
 2013-04-20 0.0.1 first release
 
