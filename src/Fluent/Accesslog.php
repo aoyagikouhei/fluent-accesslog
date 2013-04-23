@@ -19,6 +19,7 @@ class Accesslog
      *    mask_value : masked value(xxx)
      *    remove : remove parameter
      *    request_key : request key
+     *    server : $_SEVER keys and values
      */
     protected $options;
 
