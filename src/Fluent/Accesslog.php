@@ -55,6 +55,10 @@ class Accesslog
         }
     }
 
+    protected function getRequest() {
+        return $_REQUEST;
+    }
+
     /**
      * add accesslog
      * @param $others other parameter
@@ -63,7 +67,7 @@ class Accesslog
      */
     public function add($others = null, $tagPrefix='', $tagPostfix='')
     {
-        $request = $_REQUEST;
+        $request = $this->getRequest();
         foreach ($this->options['remove'] as $key) {
             if (isset($request[$key])) {
                 unset($request[$key]);
